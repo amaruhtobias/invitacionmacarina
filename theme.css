@@ -135,7 +135,7 @@ html, body{
 }
 .sub-heading{
     background-color: rgba(240,188,183,.6);
-    font-family: 'Cookie', sans-serif;
+    font-family: 'Cookie', serif;
     position: absolute, center;
     text-align: center;
     font-size: 8vh;
