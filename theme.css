@@ -93,7 +93,7 @@ html, body{
     font-family: "Playfair Display", serif;
     font-weight: 800;
     font-style: oblique;
-    font-size: 9vh;
+    font-size: 8vh;
     text-shadow: 2px 2px 8px #444;
     padding-bottom: 1vh;
  
@@ -138,14 +138,15 @@ html, body{
     font-family: 'Playfair Display', serif;
     position: absolute, center;
     text-align: center;
-    font-size: 8vh;
+    font-size: 7.5vh;
     color:rgba(255,255,255,1);
-    text-shadow: 2px 2px 4px darkgray;
+    text-shadow: 2px 2px 4px #444;
 }
 .details{
     font-family: "Playfair Display", serif;
     background-color: rgba(240,188,183,0);
-    font-size: 2.8vh;
+    font-size: 2.6vh;
+    font-weight: 500;
     position: absolute, center;
     padding-top: 0.1vh;
     padding-left: 4vw;
