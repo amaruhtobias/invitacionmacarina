@@ -79,7 +79,7 @@ html, body{
 .heading {
     color:rgba(255,255,255,1);
     font-family: "Lobster", serif;
-    font-size: 20em;
+    font-size: 20vh;
     font-weight: 400;
     font-style: normal;
     text-shadow: 0 8px 8px lavenderblush;
@@ -138,7 +138,7 @@ html, body{
     font-family: 'Cookie', sans-serif;
     position: absolute, center;
     text-align: center;
-    font-size: 4em;
+    font-size: 8vh;
     color:rgba(255,255,255,1);
     text-shadow: 2px 2px 8px #444
 }
@@ -158,7 +158,7 @@ html, body{
 }
 .icondetails{
     font-family: "Playfair Display", serif;
-    margin: 4vh 2vw 8em;
+    margin: 4vh 2vw 2vw;
     color:#fff;
     text-shadow: 1px 1px 8px #888;
 
@@ -171,7 +171,7 @@ html, body{
     text-shadow: 3px 3px 4px lightcoral;
 }
 .fas {
-    font-size: 2em;
+    font-size: 8vh;
     opacity: 1;
     text-shadow: 1px 1px 6px #888;
 }
