@@ -1,38 +1,102 @@
-*{
-    font-family: 'Caveat', sans-serif;
+<style>
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightcoral;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightcoral;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style> 
+.caveat {
+    font-family: "Caveat", cursive;
     font-size: 16px;
     color: #222;
-    
 }
+.cookie-regular {
+  font-family: "Cookie", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-regular {
+  font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.scroller {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+scroll-behavior: smooth;
+}
+
+.scroller section {
+scroll-snap-align: start;
+}
+
+
 html, body{
-    margin: 0;
-    height: 100vh;
+    margin: 0 auto;
+    position:absolute, center;
     text-align: center;
+    background-image: url(img/hero.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    max-width: 800px;
+    overflow: auto;
 }
 .header{
-    background-image: url(./img/hero.jpeg);
+    height: 100vh;
+    width: auto;
+    background-color: rgba(255,204,204,0.2);
+    background-image: url(img/80.png);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: 50% 60%;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 40vh;
-    margin: 0;
-    padding-top: 30vh;
-    padding-bottom: 30vh;
+    background-position: center;
 }
 .heading {
-    color: #ffffff;
-    display: block;
-    font-family: 'Cookie', regular;
-    font-size: 6em;
-    font-weight: normal;
-    text-shadow: 0 5px 5px #000;
+    color:rgba(255,255,255,1);
+    font-family: "Lobster", serif;
+    font-size: 20em;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0 8px 8px lavenderblush;
 }
 .heading-subtext{
+    padding-top: 30vh;
+    margin: 0 10vw;
     color: #fff;
     display: block;
-    font-family: 'Caveat', cursive;
-    font-size: .6em;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-style: oblique;
+    font-size: 10vh;
+    text-shadow: 2px 2px 8px #444;
+    padding-bottom: 1vh;
+ 
 }
 .fixed-button{
     background: rgba(20,20,20,.5);
@@ -60,29 +124,65 @@ html, body{
     background: rgba(20,20,20,.9);
 }
 .section{
-    background-color: lavenderblush;
+    background-color: rgba(254,201,195,0.2);
+    padding-top: 2vh;
+    padding-bottom: 5vh;
     margin: 0 auto;
-    max-width: 100%;
-    padding: 1em 2.4em;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: #000;
+    height: 100vh;
 }
 .sub-heading{
-    font-family: 'Caveat', cursive;
-    font-size: 3em;
-    margin-top: 2em;
+    background-color: rgba(240,188,183,.6);
+    font-family: 'Cookie', sans-serif;
+    position: absolute, center;
+    text-align: center;
+    font-size: 4em;
+    color:rgba(255,255,255,1);
+    text-shadow: 2px 2px 8px #444
 }
 .details{
-    margin: 0 auto 8em;
+    font-family: "Playfair Display", serif;
+    background-color: rgba(240,188,183,0);
+    font-size: 3vh;
+    position: absolute, center;
+    padding-top: 0.1vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 0.1vh;
+    text-align: center;
+    color:rgba(0,0,0,1);
+    text-shadow: 3px 3px 4px lightcoral;
+
+}
+.icondetails{
+    font-family: "Playfair Display", serif;
+    margin: 4vh 2vw 8em;
+    color:#fff;
+    text-shadow: 1px 1px 8px #888;
+
 }
 .details-heading{
-    font-weight: bold;
-    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 3vh;
+    color:#000;
+    text-shadow: 3px 3px 4px lightcoral;
 }
 .fas {
-    font-size: 3em;
-    opacity: .8;
+    font-size: 2em;
+    opacity: 1;
+    text-shadow: 1px 1px 6px #888;
 }
 .resort-image{
-    width: 100%
+    width: 60%;
+}
+.weli-image{
+    width: auto;
+    height: 40vh;
+    padding-bottom: 2vh;
+    padding-top:0.5vh;
 }
 
 @media only screen and (max-width: 1000px) {
