@@ -65,6 +65,7 @@ html, body{
     background-size:cover;
     background-attachment: fixed;
     overflow: auto;
+    width: 100vw;
 }
 .header{
     height: 100vh;
@@ -139,7 +140,7 @@ html, body{
     text-align: center;
     font-size: 8vh;
     color:rgba(255,255,255,1);
-    text-shadow: 2px 2px #444
+    text-shadow: 2px 2px 8px #444;
 }
 .details{
     font-family: "Playfair Display", serif;
